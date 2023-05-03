@@ -1,0 +1,13 @@
+
+
+.testimonials {
+    padding: 30px 90px;
+}
+
+.testimonials-container {
+    text-align: center;
+}
+
+.testimonials .testimonials-container .card {
+    text-align: left;
+}
