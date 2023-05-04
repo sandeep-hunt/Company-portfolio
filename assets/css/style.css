@@ -56,12 +56,50 @@
     margin-top: 8px;
 }
 
+/* Procure Section */
+
 .procure {
   background-color: #1e0a3c;
-  height: 350px;
+  background-image: url('../images/procure.PNG');
+  height: 492px;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 
+.procure .procure-container {
+  padding: 60px 90px;
+}
 
+.content-box {
+  margin-top: 50px;
+}
+
+.procure .procure-container .procure-title {
+  color: #30f2c0;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.procure .procure-container .procure-tag {
+  color: white;
+  font-size: 44px;
+  margin-top: 10px;
+}
+
+.procure .procure-container .btn-primary {
+  background-color: #833CFF;
+  border: 1px solid #833CFF;
+  margin-top: 20px;
+}
+
+.procure .procure-container .btn-primary:hover {
+  background-color: white;
+  color: #833CFF;
+}
+
+/* Footer Section */
+
+/* Testimonial Section */
 
 #testimonial-area .section-heading h2 {
     font-size: 48px;
