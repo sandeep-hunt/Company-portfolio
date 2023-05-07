@@ -28,6 +28,13 @@
     padding: 60px 90px;
 }
 
+.intro .card {
+  border-radius: 25px;
+  border: none;
+  padding: 20px;
+  box-shadow: 0px 10px 39px rgb(0 0 0 / 8%);
+}
+
 .services {
     padding-left: 90px;
     padding-right: 90px;
@@ -44,10 +51,6 @@
     justify-content: space-between;
 }
 
-.services-content {
-    flex-direction: column;
-}
-
 .services-content img {
     border-radius: 5px;
 }
@@ -59,7 +62,6 @@
 /* Procure Section */
 
 .procure {
-  background-color: #1e0a3c;
   background-image: url('../images/procure.PNG');
   height: 492px;
   width: 100%;
@@ -98,6 +100,68 @@
 }
 
 /* Footer Section */
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer .footer-container {
+  padding: 0px 60px;
+}
+
+footer .footer-top {
+  border-bottom: 3px solid #ECEEF4;
+  margin-bottom: 15px;
+}
+
+footer img {
+  margin-bottom: 20px;
+}
+
+footer .footer-desc {
+  font-size: 18px;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-content .footer-text {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+footer .footer-content .footer-link {
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer-content .footer-link:hover {
+  color: #833CFF;
+}
+
+footer .footer-bottom {
+  margin-top: 20px;
+}
+
+footer .footer-bottom .footer-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer .footer-bottom .footer-second {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* Testimonial Section */
 
@@ -479,3 +543,46 @@
       height: 550px;
     }
   }
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+  
+  .carousel-content {
+    padding: 60px 30px;
+    color: white;
+  }
+
+  .intro {
+    padding: 0;
+  }
+
+  .intro .card {
+    border-bottom: 0;
+    box-shadow: none;
+    margin-bottom: 15px;
+  }
+
+  .intro .card img {
+    margin-top: 20px;
+  }
+
+  .services, #testimonial-area, .procure .procure-container, .footer-container {
+    padding: 10px 40px;
+  }
+
+  .services .services-container {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .services .services-container .services-content {
+    margin: 15px 0;
+  }
+
+  footer .footer-first, footer .footer-second {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
