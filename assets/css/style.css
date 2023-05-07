@@ -173,7 +173,7 @@ footer .footer-bottom .footer-second {
   .testi-wrap {
     position: relative;
     height: 600px;
-    margin-top: -80px;
+    margin-top: -40px;
   }
   
   .client-single {
@@ -291,7 +291,6 @@ footer .footer-bottom .footer-second {
   .client-comment span i {
     font-size: 60px;
     color: #0084ff;
-    margin: 40px 0 24px;
     display: inline-block;
   }
   
@@ -476,7 +475,7 @@ footer .footer-bottom .footer-second {
     }
   
     .testi-wrap {
-      height: 600px;
+      height: 700px;
     }
   }
   @media only screen and (min-width: 320px) and (max-width: 359px) {
@@ -567,7 +566,7 @@ footer .footer-bottom .footer-second {
     margin-top: 20px;
   }
 
-  .services, #testimonial-area, .procure .procure-container, .footer-container {
+  .services, #testimonial-area, .procure .procure-container, footer .footer-container {
     padding: 10px 40px;
   }
 
@@ -578,6 +577,10 @@ footer .footer-bottom .footer-second {
 
   .services .services-container .services-content {
     margin: 15px 0;
+  }
+
+  footer .footer-container .footer-content .footer-text, footer .footer-container .footer-content .contact-text {
+    margin-top: 10px;
   }
 
   footer .footer-first, footer .footer-second {
